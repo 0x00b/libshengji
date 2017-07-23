@@ -37,23 +37,6 @@ typedef unsigned short		_uint16;
 typedef unsigned int		_uint32;
 typedef int					_tint32;
 
-//玩法ID
-enum PlayerID
-{
-	GAME_PLAYERS_3							= 1109001,			//游戏人数3
-	GAME_PLAYERS_4							= 1109002,			//游戏人数4
-
-	PAISHUDEL3_4  					    	= 1001001,			//去掉3和4
-	PAISHUNDEL3_4						    = 1001002,			//不去掉3和4
-
-	NTNUMN5                                 = 1002001,          //不打5，10，K
-	NTNUM5                                  = 1002002,          //打5，10，k
-
-	NTNUMN2                                 =1003002,           //2不是常主
-	NTNUM2                                  =1003001,           //2是常主
-};
-
-
 
 
 //没用
