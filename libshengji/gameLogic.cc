@@ -1340,11 +1340,11 @@ bool CGameLogic::GetFLOutCards(const _uint8 outCards[], _uint8 outCardsCnt, cons
 		if (NTC(outCards[0]))
 		{
 			m_bNTC && (canOutClr[canOutClrCnt++] = m_nNTColor);
-			for (_uint8 i = 0; i < sgCnt; ++i)
+			for (_uint8 i = 0; i < cardsCnt; ++i)
 			{
-				if (SpNTC(sg[i]))
+				if (SpNTC(cards[i]))
 				{
-					canOutCard[canOutCnt++] = sg[i];
+					canOutCard[canOutCnt++] = cards[i];
 				}
 			}
 		}
